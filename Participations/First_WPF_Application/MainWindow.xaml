@@ -1,0 +1,24 @@
+﻿<Window x:Class="First_WPF_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_WPF_Application"
+        mc:Ignorable="d"
+        Title="My First WPF Application" Height="450" Width="800" Background="#FF940606">
+    <Grid>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="90,69,0,0" VerticalAlignment="Top" Width="82" Foreground="#FFFBF7F7"/>
+        <Label Content="Birthdate:" HorizontalAlignment="Left" Margin="90,100,0,0" VerticalAlignment="Top" Width="82" Foreground="#FFFBF7F7"/>
+        <TextBox x:Name="txtDOB" HorizontalAlignment="Left" Margin="177,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="dtpDOB" HorizontalAlignment="Left" Margin="177,143,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="177,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" MouseEnter="txtName_MouseEnter" MouseLeave="txtName_MouseLeave"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="131,217,0,0" VerticalAlignment="Top" Width="166" Height="78" IsDefault="True" Click="btnSave_Click"/>
+        <Label x:Name="lblOutput" Content="Hello {name}, you are 55 years old!" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Width="724" Foreground="#FFFBF7F7"/>
+        <CheckBox x:Name="chk1" Content="CheckBox" HorizontalAlignment="Left" Margin="429,187,0,0" VerticalAlignment="Top" Foreground="#FFFFF5F5" Height="14" Width="107"/>
+        <CheckBox x:Name="chk2" Content="CheckBox" HorizontalAlignment="Left" Margin="429,206,0,0" VerticalAlignment="Top" Foreground="#FFFFF5F5" Height="14" Width="107"/>
+        <ComboBox x:Name="cboChoices" HorizontalAlignment="Left" Margin="400,69,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstData" Height="119" VerticalAlignment="Bottom"/>
+        <WebBrowser x:Name="webGoogle" Margin="0,315,0,0"/>
+
+    </Grid>
+</Window>
