@@ -12,13 +12,13 @@
         <TextBox x:Name="txtDOB" HorizontalAlignment="Left" Margin="177,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <DatePicker x:Name="dtpDOB" HorizontalAlignment="Left" Margin="177,143,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="177,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" MouseEnter="txtName_MouseEnter" MouseLeave="txtName_MouseLeave"/>
-        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="131,217,0,0" VerticalAlignment="Top" Width="166" Height="78" IsDefault="True" Click="btnSave_Click"/>
-        <Label x:Name="lblOutput" Content="Hello {name}, you are 55 years old!" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Width="724" Foreground="#FFFBF7F7"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="117,0,0,0" VerticalAlignment="Center" Width="166" Height="78" IsDefault="True" Click="btnSave_Click"/>
+        <Label x:Name="lblOutput" Content="Hello {name}, you are 55 years old!" HorizontalAlignment="Center" Margin="0,274,0,0" VerticalAlignment="Top" Width="724" Foreground="#FFFBF7F7"/>
         <CheckBox x:Name="chk1" Content="CheckBox" HorizontalAlignment="Left" Margin="429,187,0,0" VerticalAlignment="Top" Foreground="#FFFFF5F5" Height="14" Width="107"/>
         <CheckBox x:Name="chk2" Content="CheckBox" HorizontalAlignment="Left" Margin="429,206,0,0" VerticalAlignment="Top" Foreground="#FFFFF5F5" Height="14" Width="107"/>
         <ComboBox x:Name="cboChoices" HorizontalAlignment="Left" Margin="400,69,0,0" VerticalAlignment="Top" Width="120"/>
-        <ListBox x:Name="lstData" Height="119" VerticalAlignment="Bottom"/>
-        <WebBrowser x:Name="webGoogle" Margin="0,315,0,0"/>
+        <ListBox x:Name="lstData" Height="119" VerticalAlignment="Bottom" Margin="0,0,464,0"/>
+        <WebBrowser x:Name="webGoogle" HorizontalAlignment="Right" Width="340" Height="119" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>
