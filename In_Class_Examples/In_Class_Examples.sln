@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "MyFirstWPFApplication\MyFirstWPFApplication.csproj", "{43F56403-5BE9-4147-A9CD-D1438439450A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-ReadingACSVFile", "WPF-ReadingACSVFile\WPF-ReadingACSVFile.csproj", "{49278D03-D575-4353-AE74-D83E7A8CC651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-ReadingACSVFile", "WPF-ReadingACSVFile\WPF-ReadingACSVFile.csproj", "{49278D03-D575-4353-AE74-D83E7A8CC651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-JSONFromFile", "WPF-JSONFromFile\WPF-JSONFromFile.csproj", "{DABE4A90-446C-4931-9218-4B91C51CB4FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{49278D03-D575-4353-AE74-D83E7A8CC651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49278D03-D575-4353-AE74-D83E7A8CC651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49278D03-D575-4353-AE74-D83E7A8CC651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
