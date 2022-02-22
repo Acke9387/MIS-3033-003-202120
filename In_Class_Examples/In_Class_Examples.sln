@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-ReadingACSVFile", "WPF-ReadingACSVFile\WPF-ReadingACSVFile.csproj", "{49278D03-D575-4353-AE74-D83E7A8CC651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-JSONFromFile", "WPF-JSONFromFile\WPF-JSONFromFile.csproj", "{DABE4A90-446C-4931-9218-4B91C51CB4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-JSONFromFile", "WPF-JSONFromFile\WPF-JSONFromFile.csproj", "{DABE4A90-446C-4931-9218-4B91C51CB4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-WebServicesRickAndMorty", "JSON-WebServices\JSON-WebServicesRickAndMorty.csproj", "{EFD0C561-7E15-4331-8EB9-8E461CFDF52A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DABE4A90-446C-4931-9218-4B91C51CB4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD0C561-7E15-4331-8EB9-8E461CFDF52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD0C561-7E15-4331-8EB9-8E461CFDF52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD0C561-7E15-4331-8EB9-8E461CFDF52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD0C561-7E15-4331-8EB9-8E461CFDF52A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
