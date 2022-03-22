@@ -1,0 +1,14 @@
+﻿<Window x:Class="JSON_PokemonAPI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_PokemonAPI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="246" Width="258">
+    <Grid>
+        <ComboBox x:Name="cboPokemon" HorizontalAlignment="Left" Margin="55,54,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboPokemon_SelectionChanged"/>
+        <Label Content="Select a pokemon" HorizontalAlignment="Left" Margin="37,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.086"/>
+
+    </Grid>
+</Window>
