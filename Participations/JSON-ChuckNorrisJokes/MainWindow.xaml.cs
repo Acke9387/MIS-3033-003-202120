@@ -26,8 +26,6 @@ namespace JSON_ChuckNorrisJokes
         {
             InitializeComponent();
 
-
-
             string url = "https://api.chucknorris.io/jokes/categories";
             cboCategories.Items.Add("All");
             cboCategories.SelectedIndex = 0;
